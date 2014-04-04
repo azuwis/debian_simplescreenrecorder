@@ -922,7 +922,7 @@ void PageRecord::OnUpdateHotkey() {
 		if(IsHotkeyShiftEnabled()) modifiers |= ShiftMask;
 		if(IsHotkeyAltEnabled()) modifiers |= Mod1Mask;
 		if(IsHotkeySuperEnabled()) modifiers |= Mod4Mask;
-		m_hotkey_start_pause.Bind(XK_A + GetHotkeyKey(), modifiers);
+		m_hotkey_start_pause.Bind(XK_F12, modifiers);
 	} else {
 		m_hotkey_start_pause.Unbind();
 	}

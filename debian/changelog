@@ -1,3 +1,9 @@
+simplescreenrecorder (0.2.2+109.g818942f-1) unstable; urgency=low
+
+  * New upstream snapshot
+
+ -- Zhong Jianxin <azuwis@gmail.com>  Fri, 06 Jun 2014 09:55:36 +0800
+
 simplescreenrecorder (0.2.0-2) trusty; urgency=low
 
   * Sorry, no changelogs yet.
